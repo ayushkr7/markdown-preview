@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Markdown-Previewer</title>
   </head>
   <body>
     <div id="container">
       <div id="editor-wrapper">
-        <textarea name="editor" id="editor" cols="30" rows="10">
-            # The largest heading
-            ## The second largest heading
-            ###### The smallest heading
+        <div id="editor-header">
+          <span>Editor</span>
+        </div>
+        <textarea name="editor" id="editor" rows="25" style="width: 100%; max-width: 100%;">
+# The largest heading
+## The second largest heading
+###### The smallest heading
         </textarea>
       </div>
       <div id="preview"></div>
