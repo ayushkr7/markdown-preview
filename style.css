@@ -31,3 +31,28 @@ textarea {
   font-size: 1.5rem;
   font-weight: 800;
 }
+
+#preview-wrapper{
+  width: 65%;
+  display: inline-block;
+  margin-left: 2.5%;
+  height: auto;
+  position: fixed;
+  top: 4vh;
+}
+
+#preview-header {
+  text-align: center;
+  background-color: lawngreen;
+  border-radius: 5px 5px 0 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#preview{
+  background-color: #F8F9F9;
+  font-family: monospace;
+  height: 85vh;
+  overflow: auto;
+  color: black;
+}
