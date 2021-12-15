@@ -56,3 +56,28 @@ textarea {
   overflow: auto;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+
+  #editor-wrapper,
+  textarea {
+    width: 95%;
+    display: block;
+    margin: 2.5%;
+    height: auto;
+  }
+
+  textarea {
+    margin: 0%;
+    resize: vertical;
+  }
+
+  #preview-wrapper {
+    width: 95%;
+    display: block;
+    margin: 2.5%;
+    height: auto;
+    position: static;
+  }
+  
+}
